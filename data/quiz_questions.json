@@ -1,0 +1,83 @@
+{
+  "description": "이 퀴즈는 배틀그라운드(PUBG) 게임 지식을 테스트합니다. 총기 성능, 아이템, 맵, 시스템 등 다양한 영역의 10문제로 구성되어 있으며, 점수에 따라 **배린이 / 배청년 / 고인물** 3단계 등급이 매겨집니다.",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "다음 AR 중 연사 속도가 가장 빠른 총은?",
+      "type": "multiple_choice",
+      "options": ["M416", "AUG", "AKM", "SCAR-L"],
+      "correct_answer": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "다음 중 3레벨 조끼의 피해 감소율은?",
+      "type": "multiple_choice",
+      "options": ["40%", "45%", "50%", "55%"],
+      "correct_answer": 3,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "question": "다음 배그의 아이템들 중 인벤토리에 보유 시 무게가 가장 많이 나가는 아이템은?",
+      "type": "multiple_choice",
+      "options": ["아드레날린 주사기", "후라이팬", "고무보트", "연료통"],
+      "correct_answer": 1,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "question": "다음 중 구급상자가 채워주는 최대 HP는?",
+      "type": "multiple_choice",
+      "options": ["60", "65", "70", "75", "80"],
+      "correct_answer": 3,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "다음 중 '사녹' 맵의 주요 도시의 이름이 아닌 곳은?",
+      "type": "multiple_choice",
+      "options": ["부트 캠프(Boot camp)", "반 타이(Ban Tai)", "캠프 알파(Camp Alpha)", "농장(Farm)", "루인스(Ruins)"],
+      "correct_answer": 3,
+      "points": 10
+    },
+    {
+      "id": 6,
+      "question": "다음 AR 중 한 발당 데미지가 가장 강력한 총은?",
+      "type": "multiple_choice",
+      "options": ["AKM", "Mk47 뮤턴트", "그로자", "베릴 M762"],
+      "correct_answer": 1,
+      "points": 10
+    },
+    {
+      "id": 7,
+      "question": "다음 스페셜 스킨 차량 중, 천장이 총알에 뚫리지 않는 차량은?",
+      "type": "multiple_choice",
+      "options": ["포르쉐 911", "람보르기니 쿤타치", "부가티 Chiron", "맥라렌 GT"],
+      "correct_answer": 2,
+      "points": 15
+    },
+    {
+      "id": 8,
+      "question": "사진 속 아이언사이트를 보유하고 있는 총기의 이름은? (대소문자 구분)",
+      "type": "text_input",
+      "image": "assets/images/FAMAS.jpg",
+      "allowed_answers": ["famas", "FAMAS", "파마스"],
+      "points": 15
+    },
+    {
+      "id": 9,
+      "question": "현재 블루칩송신기에서 보급을 부르기 위한 필요한 상대방의 블루칩 개수는 '2개'이다.",
+      "type": "ox",
+      "correct_answer": false,
+      "points": 5
+    },
+    {
+      "id": 10,
+      "question": "배틀그라운드에서 '도핑'은 교전 상황이나 인서클 진입 시 매우 중요한 행위이다. 유저들이 흔히 말하는 '풀도핑' 최고 효과에 다다르는 것은 '에너지 부스트'가 80% 이상을 넘었을 때이다.",
+      "type": "ox",
+      "correct_answer": false,
+      "points": 5
+    }
+  ]
+}
