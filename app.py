@@ -1,4 +1,8 @@
 import streamlit as st
+from datetime import datetime
+print(f"[{datetime.now().strftime('%H:%M:%S')}] App rerun triggered")
+if "logged_in" in st.session_state:
+    print(f"    └─ logged_in: {st.session_state.get('logged_in')}, page: {st.session_state.get('page')}, current_question: {st.session_state.get('current_question')}")
 import json
 import os
 from utils.quiz_utils import get_grade, check_answer
